@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<meta charset= "utf-8">
+		<head>
+			<title>LVP x Rocket League</title>
+			<!-- imagen icono -->
+			<link rel="icon" href="LOGO.jpg">
+			<link href="estilos.css" rel="stylesheet" type="text/css">
+		</head>
+				
+		<!-- BODY -->
+			<body id="body" link="#C3073F" alink="#C3073F" vlink="#C3073F">
+
+ 				<!-- menu horizontal -->
+					<nav>
+						<div class="logo"><a href="INDEX.html"><img src="https://loogic.com/wp-content/uploads/2011/04/la-liga-de-videojuegos-profesional-nace-dispuesta-a-popularizar-los-e-sports-img460621.jpg" width="170px"/></a></div>
+						<input id="nav-toggle" type="checkbox">
+						
+							<ul class="links" align=center>
+                                <li><a href="Equipos.html">EQUIPOS</a></li>
+                                <li><a href="Jugadores.html">JUGADORES</a></li>
+                                <li><a href="Jornadas.html">JORNADAS</a></li>
+                                <li><a href="Clasificación.html">CLASIFICACIÓN</a></li>
+                                <li><a href="Quiénesomos.html">¿QUIÉNES SOMOS?</a></li>
+                            </ul>
+                                
+				
+							<label for="nav-toggle" class="icon-burger">
+								<div class="line"></div>
+								<div class="line"></div>
+								<div class="line"></div>
+							</label>
+					</nav>
+
+				
+				<!-- CAJA DE LA PÁGINA-->
+					
+<div class="bgimg-1" align="center" height="750px">
+  <video autoplay loop muted id="videorocket">
+  <source src="videorocket.mp4" type="video/mp4">
+</video>
+
+  </div>
+
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify; box-shadow: 2px 4px 4px #000;">
+  <h1 style="text-align:center;">Liga de Videojuegos Profesional y Rocket League</h1><br>
+  <p>La Liga Profesional de Videojuegos y Rocket League se han unido para traernos uno de los mejores torneos de la historia de los videojuegos. Seis equipos con los mejores jugadores de diferentes partes del mundo participarán en un torneo jamás visto. Estrellas consagradas del gaming competitivo como el mismisimo Javier Espinosa de TEAMLIQUID o el talentoso Jaime Arribas de OG competirán y lucharon en intensos partidos por la victoria y la gloria de sus equipos.<br>¿Estás preparado para para vivir una de las competiciones más esperadas de los últimos tiempos? ¡Colocate el casco, abrochate los cinturones y pisa a fondo el acelerador, bienvenido a ROCKET LEAGUE!</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <div class="contador">
+      <script>(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  let birthday = "Sep 30, 2021 00:00:00",
+      countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        let now = new Date().getTime(),
+            distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          let headline = document.getElementById("headline"),
+              countdown = document.getElementById("countdown"),
+              content = document.getElementById("content");
+
+          headline.innerText = "It's my birthday!";
+          countdown.style.display = "none";
+          content.style.display = "block";
+
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+      </script>
+  <h1 id="headline">SIGUIENTE TEMPORADA 21/22:</h1>
+  <div id="countdown">
+    <ul>
+      <li><span id="days"></span>DÍAS</li>
+      <li><span id="hours"></span>HORAS</li>
+      <li><span id="minutes"></span>MINUTOS</li>
+      <li><span id="seconds"></span>SEGUNDOS</li>
+    </ul>
+  </div>
+</div>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="background-color:#f7f7f7;text-align:center;padding:50px 80px;text-align: justify; box-shadow: 2px 3px 10px #000">
+  <h2 align="center">Sigue el campeonato en nuestras redes sociales</h2>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#f7f7f7;text-align:center;padding:50px 80px;text-align: justify;">
+      <section class="p10">
+    <a href="https://www.twitch.tv/rocketleague" target="_blank">PARTIDOS EN DIRECTO</a>
+  </section>
+  <h2 align="center">¿QUIERES PARTICIPAR EN LA PRÓXIMA TEMPORADA?</h2>
+  </div>
+</div>
+                
+                
+         <div class="bgimg-4">
+  <div class="caption">
+  
+  </div>
+</div>
+   <div style="position:relative;">
+       <section class="p11">
+    <a href="Formulario.html" target="_blank">PARTICIPA</a>
+  </section>
+
+  
+</div>
+
+			</body>
+</html>

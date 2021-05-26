@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<meta charset= "utf-8">
+		<head>
+			<title>LVP - Jornadas</title>
+			<!-- imagen icono -->
+			<link rel="icon" href="LOGO.jpg">
+			<link href="estilos.css" rel="stylesheet" type="text/css">
+		</head>
+				
+		<!-- BODY -->
+			<body id="body" link="#C3073F" alink="#C3073F" vlink="#C3073F" style="background-image: url(paris.png)">
+
+ 				<!-- menu horizontal -->
+					<nav>
+						<div class="logo"><a href="INDEX.html"><img src="https://loogic.com/wp-content/uploads/2011/04/la-liga-de-videojuegos-profesional-nace-dispuesta-a-popularizar-los-e-sports-img460621.jpg" width="170px"/></a></div>
+						<input id="nav-toggle" type="checkbox">
+						
+							<ul class="links" align=center>
+                                <li><a href="Equipos.html">EQUIPOS</a></li>
+                                <li><a href="Jugadores.html">JUGADORES</a></li>
+                                <li><a href="Jornadas.html">JORNADAS</a></li>
+                                <li><a href="Clasificación.html">CLASIFICACIÓN</a></li>
+                                <li><a href="Quiénesomos.html">¿QUIÉNES SOMOS?</a></li>
+                            </ul>
+                                
+						
+	
+							<label for="nav-toggle" class="icon-burger">
+								<div class="line"></div>
+								<div class="line"></div>
+								<div class="line"></div>
+							</label>
+					</nav>
+
+				
+				<!-- CAJA DE LA PAGINA-->
+                <div class="carousel-inner">
+                    
+                    
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        
+                    <!-- JORNADA 1 -->
+                        <div class="carousel-item">
+                            
+            <div id="divparaestadios">
+                                
+                                </div>
+                    <!-- TABLA DE RESULTADOS -->
+                        <div align="center" id="datosjornadas"></div>
+                            <br>
+                            <table id="tablasjornadas" border="0">
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p align="center" id="estiloletratitulojornada">JORNADA 1</p><hr width="95%"></td>
+                                </tr>
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p id="estiloletradatosjornada">Vier. 15 de enero <br> 15:00H <br>ESPAÑA - MADRID</p></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><img src="https://i.imgur.com/8t5TLhv.png" id="fotosequiposjornadas">TEAM LIQUID</td>
+                                    <td align="center"><span id="estilomarcador">3 : 0</span></td>
+                                    <td><img src="https://i.imgur.com/VkAdyru.png" id="fotosequiposjornadas"> FNATIC</td>
+                                </tr>
+                        
+                                <tr align="center">
+                                    <td><img src="https://i.imgur.com/Q5Xh2TY.png" id="fotosequiposjornadas">OG</td>
+                                    <td align="center"><span id="estilomarcador">1 : 1</span></td>
+                                    <td ><img src="https://i.imgur.com/YFXhV0g.png" id="fotosequiposjornadas">CLOUD9</td>
+                                </tr>
+                       
+                                <tr align="center">
+                                    <td><img src="https://i.imgur.com/eztb4Ey.png" id="fotosequiposjornadas">FAZE CLAN</td>
+                                    <td align="center"><span id="estilomarcador">0 : 3</span></td>
+                                    <td><img src="https://i.imgur.com/50KJ3SV.png" id="fotosequiposjornadas">TEAM SECRET</td>
+                                </tr>
+            
+                            </table>
+            
+                            <table id="tablasestadio" border="0">
+                                <tr>
+                                    <td colspan="2" width="400px" height="500px" align="center"><img id="fotosestadios" src="https://i.imgur.com/5pwhvx4.jpg"> </td></tr>
+                                <tr align="center">
+                                    <td align="center" colspan="2"><p id="estiloletratitulocampo">SANTIAGO BERNABEU</p></td>
+                                </tr>
+                                <tr>
+                                    <td width="400px">
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">PROPIETARIO: </span>REAL MADRID CLUB DE FÚBTOL</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">DIMENSIONES: </span>105 X 68 M</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">CAPACIDAD: </span>81.044 ESPECTADORES</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">COSTE: </span>1.732.943€</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">APERTURA: </span>14 DE DICIEMBRE DE 1947</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">REMODELACIÓN: </span>1982, 2001-2006, 2020-2022</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">AMPLIACIÓN: </span>1954, 1994, 2006, 2010</p><br>
+                                    </td>
+                                    <td><div id="divparamapa">
+                  <iframe id="iframemapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0042564824057!2d-3.6905223842930512!3d40.4530427613534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e23705d39f%3A0xa8fff6d26e2b1988!2sEstadio%20Santiago%20Bernab%C3%A9u!5e0!3m2!1ses!2ses!4v1621856844032!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                        
+                                        
+                            </table>
+                                
+                        </div>
+                    
+
+                    
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        
+                    <!-- JORNADA 2 -->
+                        <div class="carousel-item">
+                            
+            <div id="divparaestadios">
+                                
+                                </div>
+                    <!-- TABLA DE RESULTADOS -->
+                        <div align="center" id="datosjornadas"></div>
+                            <br>
+                            <table id="tablasjornadas" border="0">
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p align="center" id="estiloletratitulojornada">JORNADA 2</p><hr width="95%"></td>
+                                </tr>
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p id="estiloletradatosjornada">Vier. 15 de febrero<br>19:00H<br>ALEMANIA - FRANKFRURT</p></td>
+                                </tr>
+                                <tr align="center" >
+                                    <td><img src="https://i.imgur.com/VkAdyru.png" id="fotosequiposjornadas">FNATIC</td>
+                                    <td align="center"><span id="estilomarcador">3 : 0</span></td>
+                                    <td ><img src="https://i.imgur.com/50KJ3SV.png" id="fotosequiposjornadas">TEAMSECRET</td>
+                                </tr>
+                
+                                <tr align="center" >
+                                    <td><img src="https://i.imgur.com/8t5TLhv.png" id="fotosequiposjornadas">TEAM LIQUID</td>
+                                    <td align="center"><span id="estilomarcador">1 : 1</span></td>
+                                    <td><img src="https://i.imgur.com/YFXhV0g.png" id="fotosequiposjornadas">CLOUD9</td>
+                                </tr>
+                       
+                                <tr align="center">
+                                    <td><img src="https://i.imgur.com/Q5Xh2TY.png" id="fotosequiposjornadas">OG</td>
+                                    <td align="center"><span id="estilomarcador">1 : 1</span></td>
+                                    <td><img src="https://i.imgur.com/eztb4Ey.png" id="fotosequiposjornadas">FAZE CLAN</td>
+                                </tr>
+            
+                            </table>
+            
+                            <table id="tablasestadio" border="0">
+                                <tr>
+                                    <td colspan="2" width="400px" height="500px" align="center"><img id="fotosestadios" src="https://i.imgur.com/R2khrjy.jpg"> </td></tr>
+                                <tr align="center">
+                                    <td align="center" colspan="2"><p id="estiloletratitulocampo">DEUTSCHE BAND PARK</p></td>
+                                </tr>
+                                <tr>
+                                    <td width="400px">
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">PROPIETARIO: </span>ALEMANIA</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">DIMENSIONES: </span>105 x 68 M</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">CAPACIDAD: </span>51.500 ESPECTADORES</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">COSTE: </span>126.000.000€</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">APERTURA: </span>7 DE JUNIO DE 1925</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">REMODELACIÓN: </span>2001-2006</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">AMPLIACIÓN: </span>1954, 2006</p><br>
+                                    </td>
+                                    <td><div id="divparamapa">
+                  <iframe id="iframemapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.94558662602!2d8.6432833160445!3d50.06858067942446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0b82374086e1%3A0x72efad9b38279c0a!2sDeutsche%20Bank%20Park!5e0!3m2!1sen!2ses!4v1621893709428!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                        
+                                        
+                            </table>
+                                
+                        </div>
+                    
+
+                    
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        
+                    <!-- JORNADA 3 -->
+                        <div class="carousel-item">
+                            
+            <div id="divparaestadios">
+                                
+                                </div>
+                    <!-- TABLA DE RESULTADOS -->
+                        <div align="center" id="datosjornadas"></div>
+                            <br>
+                            <table id="tablasjornadas" border="0">
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p align="center" id="estiloletratitulojornada">JORNADA 3</p><hr width="95%"></td>
+                                </tr>
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p id="estiloletradatosjornada">Vier. 15 de Marzo<br>20:00H<br>FRANCIA - PARIS</p></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><img src="https://i.imgur.com/Q5Xh2TY.png" id="fotosequiposjornadas">OG</td>
+                                    <td align="center"><span id="estilomarcador">1 : 1</span></td>
+                                    <td ><img src="https://i.imgur.com/VkAdyru.png" id="fotosequiposjornadas">FNATIC</td>
+                                </tr>
+                                
+                                <tr align="center">
+                                    <td><img src="https://i.imgur.com/eztb4Ey.png" id="fotosequiposjornadas">FAZE CLAN</td>
+                                    <td align="center"><span id="estilomarcador">3 : 0</span></td>
+                                    <td><img src="https://i.imgur.com/YFXhV0g.png" id="fotosequiposjornadas">CLOUD9</td>
+                                </tr>
+            
+                                <tr align="center">
+                                    <td><img src="https://i.imgur.com/8t5TLhv.png" id="fotosequiposjornadas">TEAM LIQUID</td>
+                                    <td align="center"><span id="estilomarcador">0 : 3</span></td>
+                                    <td><img src="https://i.imgur.com/50KJ3SV.png" id="fotosequiposjornadas">TEAM SECRET</td>
+                                </tr>
+                            </table>
+            
+                            <table id="tablasestadio" border="0">
+                                <tr>
+                                    <td colspan="2" width="400px" height="500px" align="center"><img id="fotosestadios" src="https://i.imgur.com/7WGPVLt.jpg"> </td></tr>
+                                <tr align="center">
+                                    <td align="center" colspan="2"><p id="estiloletratitulocampo">STADE DE FRANCE</p></td>
+                                </tr>
+                                <tr>
+                                    <td width="400px">
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">PROPIETARIO: </span>GOBIERNO DE FRANCIA</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">DIMENSIONES: </span>119 X 75 M</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">CAPACIDAD: </span>81.338 ESPECTADORES</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">COSTE: </span>405.683.000€</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">APERTURA: </span>28 DE ENERO DE 1998</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">REMODELACIÓN: </span>2020-2022</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">AMPLIACIÓN: </span>2010</p><br>
+                                    </td>
+                                    <td><div id="divparamapa">
+                  <iframe id="iframemapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10487.763025923901!2d2.3432862468693227!3d48.91652096869047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70c04f7109156311!2sStade%20de%20France!5e0!3m2!1sen!2ses!4v1621893855391!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                        
+                                        
+                            </table>
+                                
+                        </div>
+                    
+
+                    
+                    <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        
+                    <!-- JORNADA 4 -->
+                        <div class="carousel-item">
+                            
+            <div id="divparaestadios">
+                                
+                                </div>
+                    <!-- TABLA DE RESULTADOS -->
+                        <div align="center" id="datosjornadas"></div>
+                            <br>
+                            <table id="tablasjornadas" border="0">
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p align="center" id="estiloletratitulojornada">JORNADA 4</p><hr width="95%"></td>
+                                </tr>
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p id="estiloletradatosjornada">Vier. 15 de abril<br>19:30H<br>REINO UNIDO - NEWCASTLE</p></td>
+                                </tr>
+                                <tr align="center">
+           <td><img src="https://i.imgur.com/8t5TLhv.png" id="fotosequiposjornadas">TEAM LIQUID</td>
+                <td align="center"><span id="estilomarcador">1 : 1</span></td>
+                <td><img src="https://i.imgur.com/eztb4Ey.png" id="fotosequiposjornadas">FAZE CLAN</td>
+           </tr>
+                        <tr align="center" >
+           <td><img src="https://i.imgur.com/Q5Xh2TY.png" id="fotosequiposjornadas">OG</td>
+                <td align="center"><span id="estilomarcador">1 : 1</span></td>
+                <td ><img src="https://i.imgur.com/50KJ3SV.png" id="fotosequiposjornadas">TEAM SECRET</td>
+           </tr>
+                       <tr align="center">
+           <td><img src="https://i.imgur.com/YFXhV0g.png" id="fotosequiposjornadas">CLOUD9</td>
+                <td align="center"><span id="estilomarcador">3 : 0</span></td>
+                <td><img src="https://i.imgur.com/VkAdyru.png" id="fotosequiposjornadas">FNATIC</td>
+           </tr>
+            
+            </table>
+            
+                            <table id="tablasestadio" border="0">
+                                <tr>
+                                    <td colspan="2" width="400px" height="500px" align="center"><img id="fotosestadios" src="https://i.imgur.com/c7Iitg4.jpg"> </td></tr>
+                                <tr align="center">
+                                    <td align="center" colspan="2"><p id="estiloletratitulocampo">ST JAMES PARK</p></td>
+                                </tr>
+                                <tr>
+                                    <td width="400px">
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">PROPIETARIO: </span>NEWCASTLE F.C.</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">DIMENSIONES: </span>60 X 68 M</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">CAPACIDAD: </span>54.033 ESPECTADORES</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">COSTE: </span>778.923€</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">APERTURA: </span>11 DE DICIEMBRE DE 1966</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">REMODELACIÓN: </span> 2001-2004</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">AMPLIACIÓN: </span>-</p><br>
+                                    </td>
+                                    <td><div id="divparamapa">
+                  <iframe id="iframemapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.312138523729!2d-73.89996138420513!3d40.865023679315584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f3868be16e11%3A0x91ed6a50bd941b37!2sSt.%20James%20Park!5e0!3m2!1sen!2ses!4v1621894132899!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                        
+                                        
+                            </table>
+                                
+                        </div>
+
+    
+                    <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        
+                    <!-- JORNADA 5 -->
+                        <div class="carousel-item">
+                            
+            <div id="divparaestadios">
+                                
+                                </div>
+                    <!-- TABLA DE RESULTADOS -->
+                        <div align="center" id="datosjornadas"></div>
+                            <br>
+                            <table id="tablasjornadas" border="0">
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p align="center" id="estiloletratitulojornada">JORNADA 5</p><hr width="95%"></td>
+                                </tr>
+                                <tr align="center">
+                                    <td  colspan="3" align="center"><p id="estiloletradatosjornada">Vier. 15 de mayo<br>23:00H<br>ESTADOS UNIDOS - NEW YORK</p></td>
+                                </tr>
+                                <tr align="center" >
+           <td><img src="https://i.imgur.com/eztb4Ey.png" id="fotosequiposjornadas">FAZE CLAN</td>
+                <td align="center"><span id="estilomarcador">0 : 3</span></td>
+                <td ><img src="https://i.imgur.com/VkAdyru.png" id="fotosequiposjornadas">FNATIC</td>
+           </tr>
+                       <tr align="center" >
+           <td><img src="https://i.imgur.com/YFXhV0g.png" id="fotosequiposjornadas">CLOUD9</td>
+                <td><span id="estilomarcador">3 : 0</span></td>
+                <td><img src="https://i.imgur.com/50KJ3SV.png" id="fotosequiposjornadas">TEAM SECRET</td>
+           </tr>
+            <tr align="center">
+           <td><img src="https://i.imgur.com/8t5TLhv.png" id="fotosequiposjornadas">TEAM LIQUID</td>
+                <td align="center"><span id="estilomarcador">1 : 1</span></td>
+                <td><img src="https://i.imgur.com/Q5Xh2TY.png" id="fotosequiposjornadas">OG</td>
+           </tr>
+            </table>
+            
+                            <table id="tablasestadio" border="0">
+                                <tr>
+                                    <td colspan="2" width="400px" height="500px" align="center"><img id="fotosestadios" src="https://i.imgur.com/C16b7KH.jpg"> </td></tr>
+                                <tr align="center">
+                                    <td align="center" colspan="2"><p id="estiloletratitulocampo">YANKEE STADIUM</p></td>
+                                </tr>
+                                <tr>
+                                    <td width="400px">
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">PROPIETARIO: </span>YANKEES</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">DIMENSIONES: </span>105 X 68 M</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">CAPACIDAD: </span>100.054 ESPECTADORES</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">COSTE: </span>5.732.943€</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">APERTURA: </span>23 DE DICIEMBRE DE 1965</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">REMODELACIÓN: </span>1982</p><br>
+                                        <p id="estiloletradentrodetablacampo"><span id="negrita">AMPLIACIÓN: </span>2006</p><br>
+                                    </td>
+                                    <td><div id="divparamapa">
+                  <iframe id="iframemapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12075.131549143887!2d-73.93130245661564!3d40.832732319101815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4940c3d9559a1e08!2sYankee%20Stadium!5e0!3m2!1sen!2ses!4v1621894055503!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>
+                                    </td>
+                                </tr>           
+                            </table>
+                    <label for="carousel-6" class="carousel-control prev control-1">‹</label>
+                  
+            </div>
+                    
+             <label for="carousel-2" class="carousel-control next control-1">›</label>
+        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+        <label for="carousel-3" class="carousel-control next control-2">›</label>
+        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+        <label for="carousel-4" class="carousel-control next control-3">›</label>
+        <label for="carousel-3" class="carousel-control prev control-4">‹</label>
+        <label for="carousel-5" class="carousel-control next control-4">›</label>
+        <label for="carousel-4" class="carousel-control prev control-5">‹</label>        
+    </div>
+             
+        
+               	
+				
+			</body>
+</html>
+
